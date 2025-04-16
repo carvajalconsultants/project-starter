@@ -1,0 +1,12 @@
+/* Defines the order of CSS layers to prevent style conflicts and ensure proper cascade */
+@layer reset, base, tokens, recipes, utilities;
+
+/* Centers content both vertically and horizontally on the page, useful for single-page applications */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background: #fff;
+}

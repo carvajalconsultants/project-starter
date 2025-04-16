@@ -1,0 +1,11 @@
+# Auto-generated files by Panda
+**/styled-system
+
+# Auto-generated files by Tanstack Router
+**/routeTree.gen.ts
+
+# Auto-generated files by Codegen
+**/gql
+
+# Markdown files
+**/*.md

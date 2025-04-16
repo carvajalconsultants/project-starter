@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Client application.",
+  "main": "index.ts",
+  "author": "Carvajal Consultants, Inc. <support@carvajalonline.com>",
+  "private": true,
+  "dependencies": {
+    "@carvajalconsultants/graphile": "^0.0.1",
+    "@carvajalconsultants/headstart": "^1.0.5",
+    "@carvajalconsultants/ui-primitives": "^0.0.5",
+    "@fontsource/inter": "^5.2.5",
+    "@graphile-contrib/pg-order-by-related": "2.0.0-beta.1",
+    "@graphile/simplify-inflection": "8.0.0-beta.6",
+    "@tanstack/react-router": "^1.116.0",
+    "@tanstack/react-start": "^1.116.1",
+    "@urql/exchange-auth": "^2.2.1",
+    "@urql/exchange-graphcache": "^7.2.3",
+    "postgraphile": "5.0.0-beta.40",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "urql": "^4.2.2",
+    "vinxi": "^0.5.4"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.53.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.0",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  }
+}
