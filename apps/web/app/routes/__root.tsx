@@ -7,13 +7,15 @@ import inter700 from "@fontsource/inter/latin-700.css?url";
 
 import mainCss from "../main.css?url";
 
+import type { ReactNode } from "react";
+
 const RootComponent = () => (
   <RootDocument>
     <Outlet />
   </RootDocument>
 );
 
-const RootDocument = ({ children }: Readonly) => (
+const RootDocument = ({ children }: { children: ReactNode }) => (
   <html lang="en" data-theme="light">
     <head>
       <HeadContent />
