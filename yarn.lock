@@ -182,10 +182,10 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
-"@carvajalconsultants/eslint-config@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@carvajalconsultants/eslint-config/-/eslint-config-0.0.2.tgz#729784b17e3fc121c3713e18b3b77f57df1806a7"
-  integrity sha512-CBdxwBdbLAvt4EQlYryVzdOrodNxW7l8qcjck6nDGeg27n+qCRegsfHYhyUHJz3gggbgY9WHbFvGFmfuE7dMvA==
+"@carvajalconsultants/eslint-config@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@carvajalconsultants/eslint-config/-/eslint-config-0.0.3.tgz#0f951668e79e2647b5f00c0f01a19ae6b5d9f992"
+  integrity sha512-KsE55aOGlXa2sgGuLYy/iD4dK/TPXHw2T5SE9Z3fCxSBRmGkpWSuAfhAjOhfVHLbwbVHOgrC8ARIInIzaEcJQg==
 
 "@carvajalconsultants/graphile@^0.0.1":
   version "0.0.1"

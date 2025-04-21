@@ -7,6 +7,9 @@
     "skipLibCheck": true,
     "strict": true,
 
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@web/*": ["./apps/web/*"]
+    }
   }
 }

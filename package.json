@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@carvajalconsultants/eslint-config": "^0.0.2",
+    "@carvajalconsultants/eslint-config": "^0.0.3",
     "@eslint/js": "^9.24.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@typescript-eslint/eslint-plugin": "^8.30.1",
@@ -30,11 +30,11 @@
   },
   "scripts": {
     "prepare": "husky",
-    "lint": "eslint --report-unused-disable-directives --max-warnings 0 --fix && prettier --w ."
+    "lint": "eslint --report-unused-disable-directives --max-warnings 0 --no-warn-ignored --fix && prettier --w ."
   },
   "lint-staged": {
     "**/*.{ts,tsx,js,jsx}": [
-      "eslint --report-unused-disable-directives --max-warnings 0 --fix",
+      "eslint --report-unused-disable-directives --max-warnings 0 --no-warn-ignored --fix",
       "prettier --w"
     ]
   }
