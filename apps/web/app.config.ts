@@ -1,11 +1,24 @@
 // app.config.ts
+import optimizeLocales from "@react-aria/optimize-locales-plugin";
 import { defineConfig } from "@tanstack/react-start/config";
 
 import { paraglideVitePlugin } from "@inlang/paraglide-js";
+import tsConfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   vite: {
     plugins: [
+      tsConfigPaths({
+        projects: ["../../tsconfig.json", "./tsconfig.json"],
+      }),
+
+      {
+        ...optimizeLocales.vite({
+          locales: ["en-US"],
+        }),
+        enforce: "pre",
+      },
+
       paraglideVitePlugin({
         project: "./project.inlang",
         outdir: "./app/paraglide",

@@ -182,10 +182,10 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
-"@carvajalconsultants/eslint-config@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@carvajalconsultants/eslint-config/-/eslint-config-0.0.3.tgz#0f951668e79e2647b5f00c0f01a19ae6b5d9f992"
-  integrity sha512-KsE55aOGlXa2sgGuLYy/iD4dK/TPXHw2T5SE9Z3fCxSBRmGkpWSuAfhAjOhfVHLbwbVHOgrC8ARIInIzaEcJQg==
+"@carvajalconsultants/eslint-config@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@carvajalconsultants/eslint-config/-/eslint-config-0.0.7.tgz#7f3229af4c7e256b13e13f16ab6b25fe7b90ef76"
+  integrity sha512-93+VnZuqscEgLc9g3ZjeRPZRLNNp0pA8itl6NTVyNXdYa0IbSFhRxQ4rVsHTttLJqlQ8hHWunS+uqoWMtDs3ag==
 
 "@carvajalconsultants/graphile@^0.0.1":
   version "0.0.1"
@@ -1781,6 +1781,13 @@
     "@react-types/numberfield" "^3.8.10"
     "@react-types/shared" "^3.29.0"
     "@swc/helpers" "^0.5.0"
+
+"@react-aria/optimize-locales-plugin@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@react-aria/optimize-locales-plugin/-/optimize-locales-plugin-1.1.4.tgz#62878263d660be67ed82fdf1fde9acd4fdf57792"
+  integrity sha512-BBQNA1dO97SRdhLy/CHyD7+QLFx7ICiFTOtyrgwpYcZg654wstOYMQMI+YjRvslUeX22C19jOe7bvh7tMz4fPQ==
+  dependencies:
+    unplugin "^1.4.0"
 
 "@react-aria/overlays@^3.27.0":
   version "3.27.0"
@@ -8612,7 +8619,7 @@ unplugin-utils@^0.2.4:
     pathe "^2.0.2"
     picomatch "^4.0.2"
 
-unplugin@^1.10.0:
+unplugin@^1.10.0, unplugin@^1.4.0:
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.16.1.tgz#a844d2e3c3b14a4ac2945c42be80409321b61199"
   integrity sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==
