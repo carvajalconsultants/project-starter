@@ -1,6 +1,9 @@
 # Auto-generated files by Panda
 **/styled-system
 
+# Auto-generated files by Paraglide JS (i18n)
+**/paraglide
+
 # Auto-generated files by Tanstack Router
 **/routeTree.gen.ts
 

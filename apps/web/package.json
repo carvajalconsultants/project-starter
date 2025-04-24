@@ -29,12 +29,16 @@
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.0",
     "typescript": "^5.8.3",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "@inlang/paraglide-js": "2.0.12",
+    "@inlang/cli": "^3.0.0"
   },
   "scripts": {
     "prepare": "panda codegen",
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "paraglide": "paraglide-js compile --project ./project.inlang --outdir ./app/paraglide",
+    "machine-translate": "inlang machine translate --project project.inlang"
   }
 }
