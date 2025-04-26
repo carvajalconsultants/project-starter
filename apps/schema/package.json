@@ -1,0 +1,9 @@
+{
+  "name": "schema",
+  "version": "0.0.1",
+  "description": "Schema docs and migration scripts for this project.",
+  "author": "Carvajal Consultants, Inc. <support@carvajalonline.com>",
+  "dependencies": {
+    "graphile-migrate": "^1.4.1"
+  }
+}
