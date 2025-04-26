@@ -197,10 +197,10 @@
   resolved "https://registry.yarnpkg.com/@carvajalconsultants/headstart/-/headstart-1.0.5.tgz#e38eb95343e27267c4e08a56ea4b713a36e574d3"
   integrity sha512-iZGmTxKvoU/VGbI0K5CAsDrkl2LyaYj9JSviVzascPX5cnkevBY4E1xEve9vVlvHyxCWu7IbMo0D/XdFS+WQvw==
 
-"@carvajalconsultants/ui-primitives@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@carvajalconsultants/ui-primitives/-/ui-primitives-0.0.5.tgz#c266a2da6b1e5cd7d53801e9c7d0b6624997d548"
-  integrity sha512-TPd3TBX2ijY+wLX07Vfox95Rki6NKpjY9gXbQY8y7jU+9+Q76ObIkmjbsAonMgsvxFM5yno0AsSwnI2e2pEEvQ==
+"@carvajalconsultants/ui-primitives@^0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@carvajalconsultants/ui-primitives/-/ui-primitives-0.0.17.tgz#6edad507c4c7182d6ec2fb7e49aa82d8be20c976"
+  integrity sha512-+i+CygL+xnVV8knIFVesL1N56WJvD1DccOd+DlYGG+7TynHxzJ0F2Bm8yEUWNemv1P1QYaUWEEkMBcOqIilMHQ==
   dependencies:
     "@fontsource/inter" "^5.1.1"
     "@tanstack/react-router" "^1.115.0"
@@ -2819,6 +2819,16 @@
   resolved "https://registry.yarnpkg.com/@speed-highlight/core/-/core-1.2.7.tgz#eeaa7c1e7198559abbb98e4acbc93d108d35f2d3"
   integrity sha512-0dxmVj4gxg3Jg879kvFS/msl4s9F3T9UXC1InxgOf7t5NvcPD97u/WTA5vL/IxWHMn7qSxBozqrnnE2wvl1m8g==
 
+"@spiriit/vite-plugin-svg-spritemap@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@spiriit/vite-plugin-svg-spritemap/-/vite-plugin-svg-spritemap-4.0.1.tgz#2ce6bb9b9cbf78160b14db5ec3a8f90beec10779"
+  integrity sha512-rRhcmUHrlC8b3lUxP69+AV5+JOg1j2x6RhxVUz3cu3R7frgZ1GWuhXij5fZ2FGh1VRRGXWZs17ECHVq+JrcK2Q==
+  dependencies:
+    "@xmldom/xmldom" "^0.9.8"
+    hash-sum "^2.0.0"
+    mini-svg-data-uri "^1.4.4"
+    tinyglobby "^0.2.12"
+
 "@sqlite.org/sqlite-wasm@^3.48.0-build2":
   version "3.48.0-build4"
   resolved "https://registry.yarnpkg.com/@sqlite.org/sqlite-wasm/-/sqlite-wasm-3.48.0-build4.tgz#a03e5e541ca05997149e819aa1f9ab473e3ffb72"
@@ -3640,6 +3650,11 @@
   version "3.4.19"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.19.tgz#28105147811bcf1e6612bf1c9ab0c6d91ada019c"
   integrity sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==
+
+"@xmldom/xmldom@^0.9.8":
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.9.8.tgz#1471e82bdff9e8f20ee8bbe60d4ffa8a516e78d8"
+  integrity sha512-p96FSY54r+WJ50FIOsCOjyj/wavs8921hG5+kVMmZgKcvIKxMXHTrjNJvRgWa/zuX3B6t2lijLNFaOyuxUH+2A==
 
 abbrev@^3.0.0:
   version "3.0.1"
@@ -5658,6 +5673,11 @@ has-tostringtag@^1.0.2:
   dependencies:
     has-symbols "^1.0.3"
 
+hash-sum@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hash-sum/-/hash-sum-2.0.0.tgz#81d01bb5de8ea4a214ad5d6ead1b523460b0b45a"
+  integrity sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==
+
 hasown@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/hasown/-/hasown-2.0.2.tgz#003eaf91be7adc372e84ec59dc37252cedb80003"
@@ -6634,6 +6654,11 @@ mimic-function@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/mimic-function/-/mimic-function-5.0.1.tgz#acbe2b3349f99b9deaca7fb70e48b83e94e67076"
   integrity sha512-VP79XUPxV2CigYP3jWwAUFSku2aKqBH7uTAapFWCBqutsbmDo96KY5o8uh6U+/YSIn5OxJnXp73beVkpqMIGhA==
+
+mini-svg-data-uri@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz#8ab0aabcdf8c29ad5693ca595af19dd2ead09939"
+  integrity sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==
 
 minimatch@^3.1.2:
   version "3.1.2"

@@ -3,6 +3,7 @@ import optimizeLocales from "@react-aria/optimize-locales-plugin";
 import { defineConfig } from "@tanstack/react-start/config";
 
 import { paraglideVitePlugin } from "@inlang/paraglide-js";
+import VitePluginSVGSpritemap from "@spiriit/vite-plugin-svg-spritemap";
 import tsConfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
@@ -10,6 +11,20 @@ export default defineConfig({
     plugins: [
       tsConfigPaths({
         projects: ["../../tsconfig.json", "./tsconfig.json"],
+      }),
+
+      VitePluginSVGSpritemap(["../../node_modules/@carvajalconsultants/ui-primitives/public/icons/**/*.svg", "./public/icons/*.svg"], {
+        prefix: false,
+        svgo: {
+          plugins: [
+            {
+              name: "removeAttrs",
+              params: {
+                attrs: ["class"],
+              },
+            },
+          ],
+        },
       }),
 
       {

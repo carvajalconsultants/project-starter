@@ -9,7 +9,7 @@
   "dependencies": {
     "@carvajalconsultants/graphile": "^0.0.1",
     "@carvajalconsultants/headstart": "^1.0.5",
-    "@carvajalconsultants/ui-primitives": "^0.0.5",
+    "@carvajalconsultants/ui-primitives": "^0.0.17",
     "@fontsource/inter": "^5.2.5",
     "@graphile-contrib/pg-order-by-related": "2.0.0-beta.1",
     "@graphile/simplify-inflection": "8.0.0-beta.6",
@@ -24,15 +24,16 @@
     "vinxi": "^0.5.4"
   },
   "devDependencies": {
+    "@inlang/cli": "^3.0.0",
+    "@inlang/paraglide-js": "2.0.12",
     "@pandacss/dev": "^0.53.3",
     "@react-aria/optimize-locales-plugin": "^1.1.4",
+    "@spiriit/vite-plugin-svg-spritemap": "^4.0.1",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.0",
     "typescript": "^5.8.3",
-    "vite-tsconfig-paths": "^5.1.4",
-    "@inlang/paraglide-js": "2.0.12",
-    "@inlang/cli": "^3.0.0"
+    "vite-tsconfig-paths": "^5.1.4"
   },
   "scripts": {
     "prepare": "panda codegen",
