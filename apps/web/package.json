@@ -24,6 +24,9 @@
     "vinxi": "^0.5.4"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "5.0.5",
+    "@graphql-codegen/client-preset": "4.6.4",
+    "@graphql-codegen/introspection": "4.0.3",
     "@inlang/cli": "^3.0.0",
     "@inlang/paraglide-js": "2.0.12",
     "@pandacss/dev": "^0.53.3",
@@ -32,12 +35,13 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.0",
+    "concurrently": "^9.1.2",
     "typescript": "^5.8.3",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "scripts": {
     "prepare": "panda codegen",
-    "dev": "vinxi dev",
+    "dev": "concurrently \"vinxi dev --host\" \"graphql-codegen --watch\"",
     "build": "vinxi build",
     "start": "vinxi start",
     "paraglide": "paraglide-js compile --project ./project.inlang --outdir ./app/paraglide",
