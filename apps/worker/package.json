@@ -1,0 +1,15 @@
+{
+  "name": "worker",
+  "version": "0.0.1",
+  "description": "Tasks that are long running are done in the background in this worker.",
+  "main": "index.ts",
+  "author": "Carvajal Consultants, Inc. <support@carvajalonline.com>",
+  "private": true,
+  "dependencies": {
+    "graphile-worker": "^0.16.6",
+    "valibot": "^1.0.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  }
+}
