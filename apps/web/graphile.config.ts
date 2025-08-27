@@ -30,7 +30,7 @@ const preset: GraphileConfig.Preset = {
    */
   pgServices: [
     makePgService({
-      connectionString: process.env.POSTGRES_CONNECTION_STRING,
+      connectionString: process.env.DATABASE_URL,
 
       schemas: ["app_public"],
     }),
