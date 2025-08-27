@@ -5,5 +5,10 @@
   "author": "Carvajal Consultants, Inc. <support@carvajalonline.com>",
   "dependencies": {
     "graphile-migrate": "^1.4.1"
+  },
+  "scripts": {
+    "commit": "bun --env-file=.env graphile-migrate commit",
+    "uncommit": "bun --env-file=.env graphile-migrate uncommit",
+    "watch": "bun --env-file=.env graphile-migrate watch"
   }
 }
