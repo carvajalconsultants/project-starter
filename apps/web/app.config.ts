@@ -43,6 +43,7 @@ export default defineConfig({
     ],
   },
   server: {
+    preset: "bun",
     experimental: {
       websocket: true,
     },
