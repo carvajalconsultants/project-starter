@@ -9,6 +9,7 @@
   "scripts": {
     "commit": "bun --env-file=.env graphile-migrate commit",
     "uncommit": "bun --env-file=.env graphile-migrate uncommit",
-    "watch": "bun --env-file=.env graphile-migrate watch"
+    "watch": "bun --env-file=.env graphile-migrate watch",
+    "migrate": "bun --env-file=.env graphile-migrate migrate"
   }
 }
