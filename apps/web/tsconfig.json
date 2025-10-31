@@ -1,6 +1,6 @@
 {
   "extends": "../../tsconfig.json",
 
-  "include": ["app", "styled-system", "panda.config.ts", "vite.config.ts", "graphql.config.ts"],
+  "include": ["app", "styled-system", "panda.config.ts", "vite.config.ts", "graphql.config.ts", "**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }

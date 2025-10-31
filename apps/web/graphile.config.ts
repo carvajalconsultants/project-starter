@@ -16,7 +16,7 @@ const preset: GraphileConfig.Preset = {
 
   grafserv: {
     port: 5678,
-    graphiql: true,
+    graphiql: false,
     watch: false,
     graphiqlOnGraphQLGET: false,
     graphqlPath: "/api/graphql",
